@@ -1,0 +1,14 @@
+start, end = 1, 100
+  
+# iterating each number in list 
+for i in range(start, end + 1): 
+      
+    # checking the condition 
+    if i % 3 == 0 and i % 5 == 0: 
+        print("CracklePop") 
+    elif i % 5 == 0:
+        print("Pop")
+    elif i % 3 == 0:
+        print("Crackle")
+    else:
+        print(i)
